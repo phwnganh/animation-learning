@@ -1,0 +1,21 @@
+body{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    background: cyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    transition: transform 2s ease;
+    /* transform: rotate(45deg); */
+    /* transform: translateY(-45px); */
+    /* transform: scale(); */
+    transform: skewY(10deg)
+}
